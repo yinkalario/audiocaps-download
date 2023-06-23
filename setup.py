@@ -23,6 +23,9 @@ setup(
         "joblib",
         "pandas",
         "yt-dlp",
+        "pandas",
+        "torchaudio",
+        "tqdm"
     ],
     extras_require = {
         "dev" : [
