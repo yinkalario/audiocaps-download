@@ -10,4 +10,4 @@ conda create -n audiocaps_dl python=3.11 -y
 conda activate audiocaps_dl
 # pip install -r ./requirements.txt
 python -m pip install -e .
-python -m pip install -e .[dev]
+python -m pip install -e ".[dev]"
